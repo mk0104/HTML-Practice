@@ -1,0 +1,76 @@
+* {
+    background: black;
+    border: green solid 1px;
+}
+
+p {
+    color: darkgreen;
+}
+
+strong {
+    color: green;
+}
+
+#Welcome {
+    color: green;
+}
+
+h1, h2, h3, li {
+    color: green;
+}
+
+.Media {
+    color: rgb(17, 230, 17);
+}
+
+a[href*="page=2"] {
+    color: darkgreen;
+}
+
+a[href*="/"] {
+    color: darkgreen;
+}
+
+a:hover {
+    color: rgb(1, 219, 12);
+}
+
+img[src*="..jpg"] {
+    max-width: 8.5%;
+    height: auto;
+}
+
+img[src*="0.jpg"] {
+    max-width: 500%;
+    height: auto;
+}
+
+img[src*="m.jpg"] {
+    max-width: 10%;
+    height: auto;
+}
+
+img[src*="d.jpg"] {
+    max-width: 8%;
+    height: auto;
+}
+
+img[src*="4.jpg"] {
+    max-width: 8%;
+    height: auto;
+}
+
+img[src*="scaled.jpg"] {
+    max-width: 15%;
+    height: auto;
+}
+
+img[src*="hPlus.jpg"] {
+    max-width: 15%;
+    height: auto;
+}
+
+img[src*="b33.jpeg"] {
+    max-width: 15%;
+    height: auto;
+}

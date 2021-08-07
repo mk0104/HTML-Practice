@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://images.hdqwalls.com/wallpapers/snowy-blue-mountains-4k-e5.jpg");
+    background-size: 1950px;
+}
+
+main {
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    position: static;
+    border-bottom: black solid 1px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img[src*="215596"] {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    background-color: rgb(94, 15, 68);
+    width: 70px;
+}
+
+nav {
+    color: darkviolet;
+    font-weight: bold;
+    background-color: gold;
+    opacity: 0.6;
+}
+
+a:hover {
+    color: firebrick;
+}
