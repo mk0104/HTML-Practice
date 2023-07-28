@@ -1,0 +1,111 @@
+/*sass other pages */
+@import "_features";
+@import "_mixins";
+@import "_variables";
+/* top of the page panel with logos and etc */
+.TopPage {
+  @include toppage;
+  border-bottom: 1px solid white;
+  border-radius: 50px;
+}
+
+.Sidepanel {
+  @include navigation();
+  @include sidepanel();
+  @include navtabs;
+  top: 30px;
+  border-right: 1px solid white;
+  border-radius: 50px;
+}
+
+/*sidepanel icons */
+.sidepanelicons {
+  @include sidepanel;
+  @include sideicons;
+  @include sideiconshover;
+}
+
+/*Main content of website starts from here */
+
+main {
+  display: grid;
+  position: absolute;
+  margin: 8%;
+  height: 100vh;
+  width: 350mm;
+  left: 40px;
+}
+
+/* background color and more */
+body {
+  background-color: rgba(92, 88, 87);
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: $Font-change;
+  font-size: $Font-size-h1;
+}
+
+.Imageshading {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+/* boxes for images hovering etc */
+.box1 {
+  @include boxsizing;
+  float: right;
+}
+.box2 {
+  @include boxsizing;
+}
+.box3 {
+  @include boxsizing;
+  float: right;
+}
+.box4 {
+  @include boxsizing;
+}
+.box5 {
+  @include boxsizing;
+  float: right;
+}
+.box6 {
+  @include boxsizing;
+}
+
+.box1:hover {
+  background-image: url(img1.jpg);
+  @include animationrotate;
+}
+
+.box2:hover {
+  background-image: url(pexels-aleksandar-pasaric-325185.jpg);
+  @include animationrotate;
+}
+
+.box3:hover {
+  background-image: url(pexels-carlos-oliva-3586966.jpg);
+  @include animationrotate;
+}
+.box4:hover {
+  background-image: url(pexels-cesar-perez-733745.jpg);
+  @include animationrotate;
+}
+.box5:hover {
+  background-image: url(pexels-francesco-ungaro-2835436.jpg);
+  @include animationrotate;
+}
+.box6:hover {
+  background-image: url(pexels-maxime-francis-2246476.jpg);
+  @include animationrotate;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

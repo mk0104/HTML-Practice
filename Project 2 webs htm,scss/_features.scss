@@ -1,0 +1,19 @@
+/*scrollbar styling all of the elements such as  thumb button cornets and etc*/
+::-webkit-scrollbar {
+  background-color: rgba(92, 88, 87);
+}
+/*styles buttons from scroll bars*/
+::-webkit-scrollbar-button {
+  background-color: rgb(41, 38, 37);
+}
+/*styles corners of scroll bars*/
+
+/*styles moving part of scroll bars*/
+::-webkit-scrollbar-thumb {
+  background-color: rgb(41, 38, 37);
+  border-radius: 10px;
+}
+/*styles track of the scrollbar so its background */
+::-webkit-scrollbar-track {
+  background-color: rgba(64, 61, 60);
+}

@@ -1,0 +1,64 @@
+.ball {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+}
+
+section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 50vh;
+}
+
+body {
+  background-color: black;
+  -webkit-animation: forwards;
+          animation: forwards;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    transform: translate(0px);
+  }
+  10% {
+    background-color: orange;
+  }
+  20% {
+    background-color: red;
+  }
+  50% {
+    transform: translate(800px);
+    background-color: rebeccapurple;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0px);
+  }
+  10% {
+    background-color: orange;
+  }
+  20% {
+    background-color: red;
+  }
+  50% {
+    transform: translate(800px);
+    background-color: rebeccapurple;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}/*# sourceMappingURL=style.css.map */

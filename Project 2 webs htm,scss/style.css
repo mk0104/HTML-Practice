@@ -1,0 +1,257 @@
+/*sass other pages */ /*scrollbar styling all of the elements such as  thumb button cornets and etc*/
+::-webkit-scrollbar {
+  background-color: rgb(92, 88, 87);
+}
+
+/*styles buttons from scroll bars*/
+::-webkit-scrollbar-button {
+  background-color: rgb(41, 38, 37);
+}
+
+/*styles corners of scroll bars*/
+/*styles moving part of scroll bars*/
+::-webkit-scrollbar-thumb {
+  background-color: rgb(41, 38, 37);
+  border-radius: 10px;
+}
+
+/*styles track of the scrollbar so its background */
+::-webkit-scrollbar-track {
+  background-color: rgb(64, 61, 60);
+}
+
+/* navigations on sidepanel */
+/* navigation links/tabs and position of it */
+/* Profile icons */
+/*Top of the page content baners etc*/
+/* boxs sizing and border radius and color*/
+/* animation for rotating */
+/* styleing the font colors text size etc*/
+/* for use on <p> */
+/* for use on <h1> */
+/* top of the page panel with logos and etc */
+.TopPage {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  place-content: center;
+  background-color: rgb(92, 88, 87);
+  border-bottom: 1px solid white;
+  border-radius: 50px;
+}
+
+.Sidepanel {
+  opacity: 80%;
+  display: inline-block;
+  padding: 30px;
+  position: fixed;
+  background-color: transparent;
+  height: 100vh;
+  margin-top: 50px;
+  top: 30px;
+  border-right: 1px solid white;
+  border-radius: 50px;
+}
+.Sidepanel div:hover {
+  border-bottom: 1px solid black;
+  margin: 2px;
+}
+.Sidepanel div:hover a:hover {
+  color: white;
+}
+.Sidepanel div {
+  margin: 10px;
+  font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+.Sidepanel a {
+  text-decoration: none;
+  color: black;
+}
+
+/*sidepanel icons */
+.sidepanelicons {
+  opacity: 80%;
+  display: inline-block;
+  padding: 30px;
+  position: fixed;
+  background-color: transparent;
+  height: 100vh;
+  margin-top: 50px;
+  top: 70vh;
+}
+.sidepanelicons div:hover {
+  margin: 2px;
+  border-radius: 50%;
+  padding: 4px;
+  background-color: rgb(24, 23, 23);
+}
+
+/*Main content of website starts from here */
+main {
+  display: grid;
+  position: absolute;
+  margin: 8%;
+  height: 100vh;
+  width: 350mm;
+  left: 40px;
+}
+
+/* background color and more */
+body {
+  background-color: rgb(92, 88, 87);
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 29px;
+}
+
+.Imageshading {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+/* boxes for images hovering etc */
+.box1 {
+  background-color: rgba(66, 62, 57, 0.35);
+  width: 250px;
+  height: 400px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 100px;
+  padding: 0;
+  position: flex;
+  float: right;
+}
+
+.box2 {
+  background-color: rgba(66, 62, 57, 0.35);
+  width: 250px;
+  height: 400px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 100px;
+  padding: 0;
+  position: flex;
+}
+
+.box3 {
+  background-color: rgba(66, 62, 57, 0.35);
+  width: 250px;
+  height: 400px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 100px;
+  padding: 0;
+  position: flex;
+  float: right;
+}
+
+.box4 {
+  background-color: rgba(66, 62, 57, 0.35);
+  width: 250px;
+  height: 400px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 100px;
+  padding: 0;
+  position: flex;
+}
+
+.box5 {
+  background-color: rgba(66, 62, 57, 0.35);
+  width: 250px;
+  height: 400px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 100px;
+  padding: 0;
+  position: flex;
+  float: right;
+}
+
+.box6 {
+  background-color: rgba(66, 62, 57, 0.35);
+  width: 250px;
+  height: 400px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 100px;
+  padding: 0;
+  position: flex;
+}
+
+.box1:hover {
+  background-image: url(img1.jpg);
+  background-size: cover;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: rotation;
+          animation-name: rotation;
+}
+
+.box2:hover {
+  background-image: url(pexels-aleksandar-pasaric-325185.jpg);
+  background-size: cover;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: rotation;
+          animation-name: rotation;
+}
+
+.box3:hover {
+  background-image: url(pexels-carlos-oliva-3586966.jpg);
+  background-size: cover;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: rotation;
+          animation-name: rotation;
+}
+
+.box4:hover {
+  background-image: url(pexels-cesar-perez-733745.jpg);
+  background-size: cover;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: rotation;
+          animation-name: rotation;
+}
+
+.box5:hover {
+  background-image: url(pexels-francesco-ungaro-2835436.jpg);
+  background-size: cover;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: rotation;
+          animation-name: rotation;
+}
+
+.box6:hover {
+  background-image: url(pexels-maxime-francis-2246476.jpg);
+  background-size: cover;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: rotation;
+          animation-name: rotation;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,78 @@
+/* navigations on sidepanel */
+
+@mixin navigation {
+  div:hover {
+    border-bottom: 1px solid black;
+    margin: 2px;
+    a:hover {
+      color: white;
+    }
+  }
+}
+
+@mixin navtabs {
+  div {
+    margin: 10px;
+    font-family: $Font-change;
+    font-size: $Font-Size-p;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+@mixin sideiconshover {
+  div:hover {
+    margin: 2px;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: rgb(24, 23, 23);
+  }
+}
+@mixin sideicons {
+  top: 70vh;
+}
+
+/* navigation links/tabs and position of it */
+@mixin sidepanel {
+  opacity: 80%;
+  display: inline-block;
+  padding: 30px;
+  position: fixed;
+  background-color: transparent;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+/* Profile icons */
+
+/*Top of the page content baners etc*/
+
+@mixin toppage {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  place-content: center;
+  background-color: rgba(92, 88, 87);
+}
+
+/* boxs sizing and border radius and color*/
+
+@mixin boxsizing {
+  background-color: rgba(66, 62, 57, 35%);
+  width: 250px;
+  height: 400px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 100px;
+  padding: 0;
+  position: flex;
+}
+
+/* animation for rotating */
+@mixin animationrotate {
+  background-size: cover;
+  animation-duration: 5s;
+  animation-name: rotation;
+}
