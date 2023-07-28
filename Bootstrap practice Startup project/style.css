@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: url(pexels-rostislav-uzunov-5011647.jpg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(238, 231, 128);
+}
+hr {
+  margin: 20px auto;
+
+  border: 2px solid #00ff9d;
+  max-width: 100px;
+  opacity: 1;
+  border-radius: 100px;
+}
+.buffer {
+  height: 5rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 350px;
+  text-transform: uppercase;
+  color: rgb(255, 5, 201);
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
+.btn-primary {
+  background-color: rgb(41, 136, 136);
+  border-color: rgb(238, 231, 128);
+}
+.btn-primary:hover {
+  border: 1px dashed white;
+  background-color: blueviolet;
+  color: rgb(5, 218, 255);
+  border-color: rgb(5, 218, 255);
+}
