@@ -1,0 +1,64 @@
+html {
+  background-color: rgb(71, 71, 70);
+}
+
+/* top menu placements and changing style how appears on the web & youtube logo size and position & 
+  customization of button how it display on web & customization of the search bar and more...*/
+.topBar {
+}
+/* top bar position etc... */
+.topMenu {
+  display: block;
+  top: 8px;
+  position: relative;
+}
+/*button customization*/
+
+.sidebarMenu {
+  position: relative;
+  height: 37px;
+  width: 37px;
+  border-radius: 19px;
+  border: transparent;
+  left: 17px;
+
+  background-image: url(side\ bar\ ---.png);
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+/*customization of the image inside of button*/
+
+/*Hover customization for the button*/
+.sidebarMenu:hover {
+  background-color: rgb(105, 105, 104);
+}
+/*youtube logo customization */
+.logoD {
+  position: fixed;
+}
+.ytLogo {
+  position: relative;
+  height: 80px;
+  width: 125px;
+  bottom: 62px;
+  left: 47px;
+}
+.gbLogo {
+  position: relative;
+  bottom: 142px;
+  left: 153px;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/*search bar customization */
+.searchBar {
+  position: relative;
+  left: 500px;
+  bottom: 5px;
+  width: 340px;
+  height: 31px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: solid 2px rgb(105, 105, 104);
+}

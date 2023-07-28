@@ -1,0 +1,11 @@
+@mixin card {
+  height: 0px;
+  width: 250px;
+  background-size: 250px 400px;
+  transform: skew(0deg, 20deg);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 85vh;
+  top: 25vh;
+}
